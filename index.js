@@ -11,7 +11,7 @@ let imageCount = imageList.length-1
 generatePositionTabs(imageCount)
 
 const tabs = document.querySelectorAll('.image-tab')
-console.log(tabs)
+//console.log(tabs)
 tabs[0].classList.add('illuminate-tab')
 
 moveL.addEventListener('click', (e) => {
